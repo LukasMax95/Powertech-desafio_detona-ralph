@@ -24,6 +24,8 @@ function countdown(){
         state.vews.status.textContent = ('O tempo acabou!' +
         `\nO seu escore é de ${pontos} ponto${(pontos === 1) ? "":"s"}`);
         alert("Reiniciar Jogo?");
+        clearInterval(state.actions.countdownTimerId);
+        clearInterval(state.actions.timerId);
     }else{
         state.vews.status.textContent = "Rodando";
         state.values.currentTime--;
