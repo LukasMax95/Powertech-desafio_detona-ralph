@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    color:white;
+}
+header{
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 2rem;
+    border-width: 0.3rem;
+    border-radius: 1rem 1rem 0 0;
+    border-color:red;
+    border-style: solid solid double solid;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+header h2{
+    font-style: bold;
+    font-size: 2.5rem;
+    color: gold;
+}
+.container{
+    display: flex;
+    background-image:url("../images/8bit_red_wall.jpeg");
+    border-color:red;
+    border-style: double solid;
+    border-radius: 0.5rem 0.5rem 0 0;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.menu{
+    display: flex;
+    background-image: url("../images/8bits_blue_brick.png");
+    border-color:cadetblue;
+    border-style: ridge;
+    border-width: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    height: height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.menu #title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    border-color:rgb(255, 119, 0);
+    border-style: solid;
+    padding: 0.3rem;
+    color: rgb(255, 119, 0);
+}
+.menu .second{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-lives .second{
+    padding: 0.3rem;
+}
+.panel{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    border: 1rem ridge saddlebrown;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid saddlebrown;
+    background-color: aquamarine;
+}
+.enemy{
+    background-color: gray;
+    background-image: url("../images/Ralph_8-bits.webp");
+    background-size:cover;
+}
+.reset{
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+}
+#button{
+    font-family: 'Roboto', sans-serif;
+    color:greenyellow;
+    text-align: center;
+}
